@@ -27,7 +27,7 @@ namespace azure_func_github_ci_cd
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hello, {name}. This HTTP triggered function executed successfully.";
+                : $"Hello, {name}. This HTTP triggered function executed successfully after deployment through GitHub.";
 
             return new OkObjectResult(responseMessage);
         }
