@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "azure_func_github_ci_cd": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7085",
+      "launchBrowser": false
+    }
+  }
+}
